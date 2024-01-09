@@ -15,6 +15,20 @@ if(isPalindrome(input)) {
 }
 
 
-// 
+// Esercizio 2 
+
+function getRandomNumber() {
+
+    let randomNumber = Math.floor(Math.random() * 5) + 1;
+
+    return randomNumber;
+}
+
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+const userInput = prompt("Pari o dispari?");
+const userNumber = parseInt(prompt("Inserisci un numero da 1 a 5:"));
 
 
